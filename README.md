@@ -18,3 +18,7 @@ Then load as a plugin in your `.zshrc`
 ```
 plugins+=(zsh-load-nvmrc)
 ```
+
+## Troubleshooting
+
+If you get an error message like `command not found: nvm_find_nvmrc`, please ensure you've loaded the plugin _after_ nvm
